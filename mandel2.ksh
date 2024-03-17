@@ -1,5 +1,6 @@
 #!/usr/bin/env ksh
 # generate mandelbrot to terminal, just for fun
+# paul lampert
 
 typeset LIMIT=500
 typeset xmax=$(( $(tput cols)  ))  # number of columns on screen
